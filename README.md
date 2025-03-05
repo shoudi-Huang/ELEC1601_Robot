@@ -5,7 +5,7 @@ This project involves the development of an autonomous robot capable of navigati
 ## Maze Overview
 Below is an overview of the maze layout that the robot navigates:
 
-![Maze Overview](20201026_Maze_overview.jpg)  
+<img src="20201026_Maze_overview.jpg" alt="Maze Overview" width="500" height="500" />
 *Figure 1: Maze layout for the autonomous robot navigation.*
 
 ## Key Functionalities
@@ -25,6 +25,9 @@ Below is an overview of the maze layout that the robot navigates:
 - Upon locating the object (a ping pong ball), the robot informs the user via Bluetooth. The object detection part of the work, please refer to https://github.com/Hansxsourse/Rapberry-Pi-Object-Detection.
 - Autonomously picks up the ball using a custom-designed mechanical arm, ensuring the object is securely carried to the designated destination.
 
+<img src="20201107_Ball_on_nut.jpg" alt="Sample Object" width="300" height="300" />
+*Figure 3: Sample Object (ping pong ball).*
+
 ### 4. Memory-Based Automation
 - The robot can repeat the navigation process from the start point to the object collection point without manual intervention.
 - Leverages memory to store and recall the optimal path, ensuring consistent performance within a defined tolerance.
@@ -36,5 +39,5 @@ Below is an overview of the maze layout that the robot navigates:
 ## Technical Highlights
 - **Bluetooth Integration**: Enables seamless communication between the robot and the user interface.
 - **Obstacle Avoidance**: Uses sensors (e.g., ultrasonic, infrared) to detect and navigate around obstacles.
-- **Path Optimization**: Implements algorithms for efficient maze navigation and path memorization.
+- **Path Optimization**: Implements path memorization.
 - **Autonomous Object Retrieval**: Includes a mechanical arm or trapping mechanism to pick up a ping pong ball autonomously.
